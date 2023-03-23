@@ -131,4 +131,5 @@ dmypy.json
 # ignoring enviroment
 /env
 /data
-./dvc
+/.dvc
+/artifacts
