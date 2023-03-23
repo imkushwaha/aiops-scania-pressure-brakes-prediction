@@ -130,3 +130,6 @@ dmypy.json
 
 # ignoring enviroment
 /env
+
+# ignoring data directory
+/data
