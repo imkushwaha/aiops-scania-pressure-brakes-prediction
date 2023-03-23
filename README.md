@@ -16,12 +16,14 @@
 
 
 ### :hammer_and_wrench: Requirements
-* Python 3.8+
+* Python 3.10+
 * Tensorflow 2.9.1
 * Keras 
 * Pandas 
 * Numpy 
 * Os 
+* DVC
+* Mlflow
 
 
 
@@ -72,3 +74,4 @@ For Data Augumentation We can use
 
 ## Contributor <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width=35 height=25> 
 - Sanjeev Kumar
+- Upendra kushwaha

@@ -1,8 +1,8 @@
 echo [$(date)]: "START"
 echo [$(date)]: "Creating conda enviroment"
 
-conda create --prefix ./env python==3.8 -y
-echo [$(date)]: "Activating env viroment"
+conda create --prefix ./env python==3.10 -y
+echo [$(date)]: "Activating environment"
 
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate ./env
