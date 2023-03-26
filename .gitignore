@@ -133,3 +133,4 @@ dmypy.json
 /data
 /.dvc
 /artifacts
+/saved_models
