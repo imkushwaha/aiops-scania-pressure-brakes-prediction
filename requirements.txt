@@ -4,14 +4,10 @@ pandas
 seaborn
 dvc
 mlflow
-
 pytest
 black
 ensure
 ipykernel
 ipython
-
-ipython
-ipykernel
 
 -e .
