@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "aiops-scania-pressure-brakes-prediction"
 AUTHOR_USER_NAME = "imkushwaha"
-SRC_REPO = "src"
+SRC_REPO = "pressure_brake_prediction"
 AUTHOR_EMAIL = "datascienceworks455@gmail.com"
 
 setuptools.setup(
