@@ -10,4 +10,9 @@ ensure
 ipykernel
 ipython
 
+box
+
+ipython
+ipykernel
+
 -e .
