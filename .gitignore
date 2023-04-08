@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # ignoring enviroment
-/env
-/data
-/.dvc
-/artifacts
+env/
+data/
+.dvc/*
+artifacts/*
