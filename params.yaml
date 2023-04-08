@@ -2,6 +2,7 @@
 prepare:
   split: 0.2
   seed: 2022
+  state: 42
   tag: <python>
 
 train:
