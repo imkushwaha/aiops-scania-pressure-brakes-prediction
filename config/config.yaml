@@ -1,16 +1,7 @@
-artifacts:
-  ARTIFACTS_DIR: artifacts
-  RAW_DATA_DIR: data
-  RAW_DATA: archive.zip
-  EXTRACTED_CSV_FOLDER: extracted_csv_folder
-  CLEANED_CSV_FILE: cleaned.csv
-  PREPARED_DATA_DIR:  prepared
-  TRAINING_DATA_DIR:  training_data
-  LABEL_TRAINING_DATA:  y_data.npy
-  IMG_TRAINING_DATA:  x_data.npy
-  TRAINED_MODEL_DIR: model
-  BASE_MODEL_NAME: resnet_50.h5
-  CHECKPOINT_DIR: checkpoints
-  BASE_LOG_DIR: base_model_dir
-  TENSORBOARD_ROOT_LOG_DIR: tensorboard_log_dir
-  CALLBACKS_DIR: callbacks
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_data_file:  data/archive.zip
+  local_data_file:  artifacts/data_ingestion/data.zip
+  unzip_dir:  artifacts/data_ingestion

@@ -132,4 +132,4 @@ dmypy.json
 env/
 data/
 .dvc/*
-artifacts/*
+artifacts/
