@@ -5,3 +5,12 @@ data_ingestion:
   source_data_file:  data/archive.zip
   local_data_file:  artifacts/data_ingestion/data.zip
   unzip_dir:  artifacts/data_ingestion/extracted_data
+
+data_transformation:
+  root_dir:  artifacts/data_transformation
+  raw_train_data: artifacts/data_ingestion/extracted_data/aps_failure_training_set.csv
+  raw_test_data:  artifacts/data_ingestion/extracted_data/aps_failure_test_set.csv
+  train_data: artifacts/data_transformation/train.joblib
+  test_data:  artifacts/data_transformation/test.joblib
+  target_column:  class
+  preprocessor_obj_file_path: artifacts/data_transformation/processor.joblib
